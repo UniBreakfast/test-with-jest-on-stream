@@ -1,4 +1,4 @@
-const map = require('./custom-array-map.js');
+require('./custom-array-map.js');
 
 describe('Array map method', () => {
   it('should apply the function to every element of the array and return a new array', () => {
